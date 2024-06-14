@@ -1,0 +1,21 @@
+.respuesta1::before,
+.respuesta1::after,
+.respuesta2::before,
+.respuesta2::after,
+.respuesta3::before,
+.respuesta3::after,
+.respuesta4::before,
+.respuesta4::after {
+
+    background-color: rgb(16, 79, 131);
+
+}
+
+.respuesta1,
+.respuesta2,
+.respuesta3,
+.respuesta4 {
+
+    background-color: rgb(97, 182, 185);
+
+}

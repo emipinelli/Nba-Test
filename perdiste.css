@@ -1,0 +1,144 @@
+.fondo {
+
+    margin: 0;
+    padding: 0;
+    background-image: url('img/perdiste.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.container {
+
+    border: 2px solid rgb(255, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 387px;
+    margin-top: 4%;
+    height: 80vh;
+    position: absolute;
+    box-shadow: 0 4px 8px red;
+    transition: transform 1s ease;
+    -webkit-transition: transform 1s ease;
+    -moz-transition: transform 1s ease;
+    -ms-transition: transform 1s ease;
+    -o-transition: transform 1s ease;
+
+}
+
+.container:hover {
+
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+
+}
+
+h1,
+h3 {
+
+    font-family: "Cairo", sans-serif;
+    font-weight: 100;
+    padding: 70px;
+    color: red;
+    cursor: default;
+    transition: transform 0.8s ease;
+    -webkit-transition: transform 0.8s ease;
+    -moz-transition: transform 0.8s ease;
+    -ms-transition: transform 0.8s ease;
+    -o-transition: transform 0.8s ease;
+
+}
+
+h1:hover,
+h3:hover {
+
+    transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+    
+}
+
+h1 {
+
+    text-shadow: 0 0 10px;
+    font-size: 4rem;
+
+}
+
+h3 {
+
+    margin-top: -50px;
+    font-size: 1.5rem;
+    text-shadow: 1.5px 0.5px 9px;
+
+}
+
+.volver {
+
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 100;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-shadow: 0 0 10px rgb(209, 27, 27);
+    font-size: 1.1rem;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+
+}
+
+
+.volver:hover {
+
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    border: 1px solid rgb(209, 27, 27);
+    box-shadow: 0 0px 4px rgb(209, 27, 27);
+
+}
+
+input {
+
+    margin-top: 100px;
+
+
+}
+
+a:focus {
+
+    outline: none;
+
+}
+
+input:focus {
+
+    outline: none;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}

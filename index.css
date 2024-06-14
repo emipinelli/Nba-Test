@@ -1,0 +1,293 @@
+html {
+
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    background-color: rgb(26, 21, 21);
+}
+
+.nav {
+
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.733);
+    height: 0;
+    width: 100%;
+
+}
+
+.nav ul {
+
+    display: flex;
+    margin: 10px;
+    list-style-type: none;
+
+}
+
+.nav ul li {
+
+    margin: 15px;
+    color: whitesmoke;
+    cursor: default;
+    font-family: "Cairo", sans-serif;
+    font-weight: 100;
+    font-size: 1.150rem;
+
+}
+
+.nav ul li:hover {
+
+    color: white;
+    text-shadow: 0 0 10px white;
+    font-size: 1.200rem;
+
+}
+
+.hero {
+
+    position: relative;
+    height: 100vh;
+}
+
+#video-hero {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: padding 0.3s ease;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pre-text {
+
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-hero {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 100px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 100;
+}
+
+.txt-deco {
+
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.938);
+    cursor: default;
+    font-size: 1em;
+    transition: text-shadow, font-size 0.6s ease-in-out;
+
+}
+
+.txt-deco:hover {
+
+    text-shadow: 0 0px 10px rgba(255, 255, 255, 0.733);
+    font-size: 0.8em;
+
+}
+
+.txt-deco:focus {
+
+    outline: none;
+    border: none;
+}
+
+.dificultades {
+
+    position: relative;
+    background-color: rgb(46, 42, 42);
+    height: 100vh;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.titulo {
+
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    z-index: 10;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: default;
+}
+
+#h1,
+#h2 {
+
+    font-family: "Cairo", sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+#h1 {
+
+    font-size: xx-large;
+}
+
+#h2 {
+
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.dificultad {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.facil,
+.normal,
+.dificil,
+.experto {
+
+    flex-grow: 1;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 140px;
+    margin-top: -20px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 205.7;
+
+}
+
+.facil:hover,
+.normal:hover,
+.dificil:hover,
+.experto:hover {
+
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.facil {
+
+    background-image: url(img/brown.jpg);
+}
+
+.normal {
+
+    background-image: url(img/Kyrie.jpg);
+}
+
+.dificil {
+
+    background-image: url(img/kobe.jpg);
+}
+
+.experto {
+
+    background-image: url(img/steph.jpg);
+    max-width: 100%;
+
+}
+
+.txt-dif {
+
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.938);
+    cursor: default;
+    font-size: 1.5em;
+    transition: text-shadow, font-size 0.5s ease-in-out;
+
+}
+
+.txt-dif:hover {
+
+    text-shadow: 0 0px 15px rgba(255, 255, 255, 0.733);
+    font-size: 1.8em;
+    transition: text-shadow, font-size 0.5s ease-in-out;
+}
+
+.txt-dif:focus {
+
+    outline: none;
+    border: none;
+}
+
+.boton-inicio {
+
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    transform: translate(650px, 0);
+    background-color: rgba(0, 0, 0, 0.952);
+    border-radius: 80%;
+    box-shadow: 0 2px 8px black;
+    padding: 16px;
+    transition: background-color 0.5s ease;
+
+}
+
+.boton-inicio a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+
+}
+
+.boton-inicio:hover {
+
+    padding: 17px;
+    background-color: rgb(26, 21, 21);
+
+}
+
+footer {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+    transform: translate(573px, -7px);
+
+}
+
+footer p {
+
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: "Cairo", sans-serif;
+    font-weight: 100;
+
+}
